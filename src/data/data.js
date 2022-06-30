@@ -5,6 +5,10 @@ import imgOrange from "../assets/images/mobile/image-photography.jpg";
 import imgEmily from "../assets/images/image-emily.jpg";
 import imgThomas from "../assets/images/image-thomas.jpg";
 import imgJennie from "../assets/images/image-jennie.jpg";
+import imgInstagram from "../assets/images/icon-instagram.svg";
+import imgFacebook from "../assets/images/icon-facebook.svg";
+import imgTwitter from "../assets/images/icon-twitter.svg";
+import imgPinterest from "../assets/images/icon-pinterest.svg";
 
 const cards = [
     {
@@ -65,9 +69,45 @@ const testimonies = [
     },
 ];
 
+const linksFooter = [
+    {
+        option: "About",
+        linkOption: "https://www.google.com",
+    },
+    {
+        option: "Services",
+        linkOption: "https://www.google.com",
+    },
+    {
+        option: "Projects",
+        linkOption: "https://www.google.com",
+    },
+];
+
+const socials = [
+    {
+        logo: imgFacebook,
+        link: "https://www.instagram.com",
+    },
+    {
+        logo: imgInstagram,
+        link: "https://www.instagram.com",
+    },
+    {
+        logo: imgTwitter,
+        link: "https://www.instagram.com",
+    },
+    {
+        logo: imgPinterest,
+        link: "https://www.instagram.com",
+    },
+];
+
 export {
     cards,
-    testimonies
+    testimonies,
+    linksFooter, 
+    socials
 }
 
 

@@ -2,7 +2,9 @@ import { useState } from 'react';
 import {Hero} from './layout/Hero';
 import { NavBar } from "./layout/Navbar";
 import { ListOfCards } from "./components/ListOfCards";
-import { Testimonials } from './components/TestimonialsList'
+import { Testimonials } from './components/TestimonialsList';
+import { Gallery } from './components/Gallery';
+import { Footer } from './layout/Footer';
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
             <Hero />
             <ListOfCards />
             <Testimonials />
+            <Gallery />
+            <Footer />
         </>
     );
 }
