@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import {Hero} from './layout/Hero';
 import { NavBar } from "./layout/Navbar";
-import { Card } from "./components/Card";
+import { ListOfCards } from "./components/ListOfCards";
+import { Testimonials } from './components/TestimonialsList'
 
 
 function App() {
-  
-
-  return (
-      <div className="">
-          <NavBar />
-          <Hero />
-          <Card />
-      </div>
-  );
+    return (
+        <>
+            <NavBar />
+            <Hero />
+            <ListOfCards />
+            <Testimonials />
+        </>
+    );
 }
 
 export default App

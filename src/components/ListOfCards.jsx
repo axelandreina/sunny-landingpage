@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Card }  from './Card'
+import {cards} from '../data/data.js'
 
-export const ListofCards = () => {
-    const cards = [{
-        image : "",
-        title: "",
-        information: "test test test",
-        link: "https://www.google.com"
-    }]
+export const ListOfCards = () => {
+    
 
     return (
-            <div>
-                ListofCards
-            </div>);
+        <div>
+            {cards.map(({image, title, information, link, classCard}) => <Card key={title} image = {image} title = {title} information = {information} link = {link} classCard = {classCard}/>)}
+        
+        </div>
+    );
 };
