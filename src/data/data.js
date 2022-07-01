@@ -17,7 +17,7 @@ const cards = [
         information:
             "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
         link: "https://www.google.com",
-        classCard: "",
+        classCard: "text-center",
     },
     {
         image: imgCup,
@@ -25,7 +25,7 @@ const cards = [
         information:
             "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places",
         link: "https://www.google.com",
-        classCard: "",
+        classCard: "text-center",
     },
     {
         image: imgCherries,
@@ -33,7 +33,7 @@ const cards = [
         information:
             "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention",
         link: "https://www.google.com",
-        class: "",
+        classCard: "text-center absolute bottom-0 w-full z-10",
     },
     {
         image: imgOrange,
@@ -41,7 +41,7 @@ const cards = [
         information:
             "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
         link: "https://www.google.com",
-        classCard: "",
+        classCard: "text-center absolute bottom-0 w-full z-10",
     },
 ];
 
@@ -87,7 +87,7 @@ const linksFooter = [
 const socials = [
     {
         logo: imgFacebook,
-        link: "https://www.instagram.com",
+        link: "https://www.facebook.com",
     },
     {
         logo: imgInstagram,
@@ -95,11 +95,11 @@ const socials = [
     },
     {
         logo: imgTwitter,
-        link: "https://www.instagram.com",
+        link: "https://www.twitter.com",
     },
     {
         logo: imgPinterest,
-        link: "https://www.instagram.com",
+        link: "https://www.pinterest.com",
     },
 ];
 

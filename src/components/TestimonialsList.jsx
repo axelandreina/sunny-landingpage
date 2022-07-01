@@ -6,7 +6,7 @@ import { testimonies } from "../data/data.js";
 export const Testimonials = () => {
     return (
         <div className="flex flex-col items-center mx-6">
-            <h1 className="text-center font-Fraunces text-xl uppercase tracking-[0.2rem] text-grayBlue">
+            <h1 className="text-center font-Fraunces text-xl uppercase tracking-[0.2rem] text-grayBlue pt-[50px]">
                 Client Testimonials
             </h1>
             {testimonies.map(({ image, description, name, role }) => (
